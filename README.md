@@ -3,10 +3,10 @@ A US bike-sharing provider BoomBikes has recently suffered considerable dips in 
 
 In such an attempt, BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19.
 The company wants to know:
--Which variables are significant in predicting the demand for shared bikes.
--How well those variables describe the bike demands
+- Which variables are significant in predicting the demand for shared bikes.
+- How well those variables describe the bike demands
 
 In the dataset provided, you will notice that there are three columns named 'casual', 'registered', and 'cnt'. The variable 'casual' indicates the number casual users who have made a rental. The variable 'registered' on the other hand shows the total number of registered users who have made a booking on a given day. Finally, the 'cnt' variable indicates the total number of bike rentals, including both casual and registered. The model should be built taking this 'cnt' as the target variable.
 
-The output model is evaluated on the basis of R2 score and F statistics.
-The final model has achieved R2 score of 80% on train set and 78% on test set and all assumptions of Linear Regression is satisfied.
+- The output model is evaluated on the basis of R2 score and F statistics.
+- The final model has achieved R2 score of 80% on train set and 78% on test set and all assumptions of Linear Regression is satisfied.
