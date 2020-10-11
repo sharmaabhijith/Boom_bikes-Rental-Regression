@@ -7,5 +7,6 @@ The company wants to know:
 -How well those variables describe the bike demands
 
 In the dataset provided, you will notice that there are three columns named 'casual', 'registered', and 'cnt'. The variable 'casual' indicates the number casual users who have made a rental. The variable 'registered' on the other hand shows the total number of registered users who have made a booking on a given day. Finally, the 'cnt' variable indicates the total number of bike rentals, including both casual and registered. The model should be built taking this 'cnt' as the target variable.
+
 The output model is evaluated on the basis of R2 score and F statistics.
 The final model has achieved R2 score of 80% on train set and 78% on test set and all assumptions of Linear Regression is satisfied.
